@@ -13,11 +13,8 @@ dist/
 *.egg-info/
 .eggs/
 
-# Logs and databases
-*.log
-
-# Ignore data directories (if not needed in the repo)
-lease-parser/data/output/
+data/output/*
+data/logs/*
 
 # Python files
 *.pyo
