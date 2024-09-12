@@ -145,35 +145,35 @@ integration into other systems.
    }
    ```
 
-    7. **Possible Improvements**
+7. **Possible Improvements**
 
-    - There are many improvements to be made throughout this project if time constraints were not a factor.
+   - There are many improvements to be made throughout this project if time constraints were not a factor.
 
-        1. Complete unit testing for all methods used throughout the project. I have implemented some for the data
-           loader as
-           an example.
-        2. Improvements to the validations given additional domain knowledge or analysis time. This would further ensure
-           data integrity.
-        3. Currently, all relevant information is logged to the console and saved in a dedicated .log file, in a
-           production capacity this would be best stored
-           in a dedicated production db.
-        4. API documentation: Swagger or Postman to maintain comprehensive documentation.
-        5. In a production setting the project would need containerizing with Docker.
-        6. Again, in a production setting a CI/CD pipeline would need to be set up for automation of testing etc.
-        7. Flask is currently only set up as a development version, disable debug mode in production.
-        8. Improve API security with some form of authentication in production.
-        9. Potential for monitoring the application with tools such as Grafana. This can be useful for performance,
-           uptime
-           or errors in an easily accessible way.
-        10. Rather than removing perceived invalid rows, an additional simple field could be provided as part of the api
-            response. isValid (`True, False`) or alternatively (`1, 0`). This way the user will receive the output,
-            decide if they will use the data, apply additional validations or transformations.
-        11. Finally, the core offering of the solution needs improving. The logic of column detection and text chunking
-            needs
-            improving massively.
-            - Potential options are NER matching for the property descriptions.
-            - Additional regex and detection for varying date formats.
-            - Domain specific knowledge to understand further what is expected per column. I have identified but not
-              implemented (due to time constraints) several format fixes for when items should be assigned to columns 2
-              and 3 that we are currently
-              misallocating to column 1.
+       1. Complete unit testing for all methods used throughout the project. I have implemented some for the data
+          loader as
+          an example.
+       2. Improvements to the validations given additional domain knowledge or analysis time. This would further ensure
+          data integrity.
+       3. Currently, all relevant information is logged to the console and saved in a dedicated .log file, in a
+          production capacity this would be best stored
+          in a dedicated production db.
+       4. API documentation: Swagger or Postman to maintain comprehensive documentation.
+       5. In a production setting the project would need containerizing with Docker.
+       6. Again, in a production setting a CI/CD pipeline would need to be set up for automation of testing etc.
+       7. Flask is currently only set up as a development version, disable debug mode in production.
+       8. Improve API security with some form of authentication in production.
+       9. Potential for monitoring the application with tools such as Grafana. This can be useful for performance,
+          uptime
+          or errors in an easily accessible way.
+       10. Rather than removing perceived invalid rows, an additional simple field could be provided as part of the api
+           response. isValid (`True, False`) or alternatively (`1, 0`). This way the user will receive the output,
+           decide if they will use the data, apply additional validations or transformations.
+       11. Finally, the core offering of the solution needs improving. The logic of column detection and text chunking
+           needs
+           improving massively.
+           - Potential options are NER matching for the property descriptions.
+           - Additional regex and detection for varying date formats.
+           - Domain specific knowledge to understand further what is expected per column. I have identified but not
+             implemented (due to time constraints) several format fixes for when items should be assigned to columns 2
+             and 3 that we are currently
+             misallocating to column 1.
