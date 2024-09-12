@@ -144,7 +144,8 @@ integration into other systems.
      }
    }
    ```
-
+    
+    All files are saved within the lease-parser/output folder.
 7. **Possible Improvements**
 
    - There are many improvements to be made throughout this project if time constraints were not a factor.
