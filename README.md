@@ -60,7 +60,7 @@ integration into other systems.
     ```bash
     cd OrbitalWitnessTechnical
    ```
-3. **Create and Activate a Virtual Environment (Optional but advised)**
+3. **Create and Activate a Virtual Environment (Optional but advised) - This project was built on python version 3.11**
     ```bash
     python -m venv venv
     source venv/bin/activate
