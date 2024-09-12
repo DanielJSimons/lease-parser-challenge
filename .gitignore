@@ -1,0 +1,49 @@
+# Ignore virtual environments
+venv/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and databases
+*.log
+
+# Ignore data directories (if not needed in the repo)
+lease-parser/data/output/
+
+# Python files
+*.pyo
+*.pyd
+*.pdb
+
+# Environment variables files
+.env
+*.env
+
+# VS Code settings
+.vscode/
+
+# JetBrains IDE settings
+.idea/
+
+# MacOS files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# PyCharm settings
+*.iml
+.idea/
+.idea_modules/
+*.ipr
+*.iws
