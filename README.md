@@ -53,8 +53,8 @@ integration into other systems.
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/lease-parser.git
-   cd lease-parser
+   git clone https://github.com/DanielJSimons/lease-parser-challenge.git
+   cd lease-parser-challenge
    ```
 2. **Navitage to the Project Directory**
     ```bash

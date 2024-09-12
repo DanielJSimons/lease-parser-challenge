@@ -14,8 +14,6 @@ dist/
 .eggs/
 
 # Ignore output and log files
-lease-parser/data/output/*.csv
-lease-parser/data/output/*.json
 lease-parser/logs/application.log
 
 # Python files
